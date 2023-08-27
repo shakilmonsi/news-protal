@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site</title>
+    <!-- bootstarp cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- css style -->
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">Welcome To Our Blog Web.</h1>
+    </header>
+    <main>
+        <section class="mt-5">
+            <div>
+                <ul>
+                    <li class="qsn-list">
+                        <h4>Question Number 01: <br>
+                            What is the difference between bar,let,const </h4>
+                        <h6>Answer:</h6>
+                        <p>var:
+                            In the early days of JavaScript, there was only one way to declare variables and that was
+                            using the var keyword.One of the issues is that the variables declared with the var keyword
+                            can be re-declared or updated in the same scope.
+                            - function scope
+                        </p>
+                        <p>
+                            let:
+                            let is the improved version of var. let eliminates all the issues of var that we have talked
+                            about in the previous section. let has a similar syntax to var but has a more strict
+                            scope.The let keyword should be used in situations where you want to declare a variable that
+                            should be restricted to the block in which it is restricted.
+                        </p>
+                        <p>
+                            const:
+                            The const keyword follows the same rules as the let keyword. The only difference with const
+                            is that const is used to define only constant values in JavaScript programs.The scoping
+                            principles of const are the same as that of the let keyword. Like let, the variables
+                            declared with the const keyword will also have scope restricted to the block in which they
+                            are declared.
+                        </p>
+                    </li>
+                    <li class="qsn-list">
+                        <h4>Question no 02: <br>
+                            What is the difference between arrow function and normal function.</h4>
+                        <h6>Answer:</h6>
+                        <p>
+                            Arrow functions a new feature introduced in ES6 enable writing concise functions in
+                            JavaScript. While both regular and arrow functions work in a similar manner, yet there are
+                            certain interesting differences between them, as discussed below.
+                        </p>
+                    </li>
+                    <li class="qsn-list">
+                        <h4>Question no 03: <br> what is the difference between foreach map, filter and find.</h4>
+                        <h6>Answer:</h6>
+                        <p>
+                            .forEach(), is used to execute the same code on every element in an array but does not
+                            change the array and it returns undefined.
+                        </p>
+                        <p>
+                            .map() executes the same code on every element in an array and returns a new array with the
+                            updated elements.
+                        </p>
+                        <p>
+                            .filter() checks every element in an array to see if it meets a certain criteria and returns
+                            a new array with the elements that return truthy for the criteria.</p>
+                        <p>The find() method returns the first element in the provided array that satisfies the provided
+                            testing function. If no values satisfy the testing function, undefined is returned.</p>
+                    </li>
+                    <li class="qsn-list">
+                        <h4>Question no 04: <br>Why I used template string?</h4>
+                        <h6>Answer:</h6>
+                        <p>
+                            Template literals provide an easy way to interpolate variables and expressions into
+                            strings.Template literals are enclosed by backtick (`) characters instead of double or
+                            single quotes.long with having normal strings, template literals can also contain other
+                            parts called placeholders, which are embedded expressions delimited by a dollar sign and
+                            curly braces: ${expression}.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

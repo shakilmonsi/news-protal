@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <!-- header section start -->
+    <!-- header section start -->
+    <!-- header section start -->
+    <!-- header section start -->
+    <header>
+        <!-- nav section start-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1 class="navbar-brand fs-1">
+                    <span class="text-primary">Find</span>
+                    <span>News</span>
+                </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto gap-3">
+                        <span class="nav-link active text-primary">News</span>
+                        <a class="nav-link active blog" href="Blog.html" target="_blank"><span
+                                class="text-primary">Blog</span></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- nav section end-->
+    </header>
+    <!-- header section end  -->
+    <!-- main sectin star -->
+    <main>
+        <!-- All categories added -->
+        <hr>
+        <section>
+            <div class="container text-center categori-section">
+                <!-- In a single categorie -->
+                <div id="add-categories" class="row align-items-start">
+
+                </div>
+            </div>
+        </section>
+        <!-- Number of news -->
+        <section class="my-5 container">
+            <div id="total-found">
+                <h4><span id="show-all-news">0</span> items found for category</h4>
+            </div>
+        </section>
+        <!-- Loading toggle -->
+        <section id="loading" class="d-none">
+            <div class="d-flex justify-content-center mt-5 ">
+                <div class="spinner-border text-success mt-5" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Categories news -->
+            <div id="news-section" class="container">
+            </div>
+        </section>
+        <section>
+            <section>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="searchOnNews" tabindex="-1" aria-labelledby="searchOnDetailsLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div id="modal-body" class="modal-body">
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+    <!-- main sectin end -->
+    <!-- footer sectin start -->
+    <footer id="footer-section" class="text-center pt-3 mt-5">
+        <p>Copyright 2021 News Portal
+        </p>
+    </footer>
+    <!-- footer sectin end -->
+
+
+
+
+
+    <!-- css framework js likn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="api.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.categori-section {
+    background-color: rgb(245, 240, 240);
+}
+
+.single-style {
+    color: orangered;
+}
+
+.blog {
+    text-decoration: none;
+}
+
+
+
+#news-details {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.img {
+    height: 40%;
+}
+
+
+#footer-section {
+    background-color: rgb(240, 231, 218);
+    color: black;
+}
+
+/* width: 40px; height: 40px; border-radius: 50%; */
+.aurthor-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.aurthor-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.qsn-list p {
+    color: orangered;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+}
