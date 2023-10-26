@@ -3,7 +3,14 @@ const Allcategories = () => {
         .then(res => res.json())
         .then(data => addCategories(data.data.news_category))
         .catch(error => console.log(error));
+
 }
+//......................................
+//......................................
+
+
+
+
 const addCategories = categories => {
     categories.forEach(categorie => {
         // console.log(categorie);
@@ -38,6 +45,14 @@ const singlenews = finds => {
     if (finds.length === 0) {
         alert('No news found')
     };
+//..................................................................................>
+
+
+
+
+
+
+
     newssection.innerHTML = ``;
     finds.forEach(find => {
         console.log(find)
